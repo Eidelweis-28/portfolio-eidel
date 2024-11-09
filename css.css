@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(to bottom, #ffc6e5, #ffb3dc);
+    color: #d75a7f;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+  }
+  
+  .navbar-custom {
+    background-color: #ff9ecf;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    position: relative; /* Memungkinkan animasi posisi */
+  }
+  
+  .navbar-custom img {
+    position: relative; /* Posisi relatif untuk animasi */
+    animation: move 2s infinite; /* Animasi CSS */
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(10px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  

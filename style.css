@@ -1,0 +1,43 @@
+.bayu {
+    background-color: #aaa;
+    padding: 30px;
+}
+
+.bayu img {
+    border: 4px solid rgb(61, 60, 60);
+    width: 250px;
+}
+
+
+.about {
+    background-color: white;
+    padding-top: 30px;
+}
+
+hr {
+    width: 250px;
+    border-top: 3px solid rgb(62, 61, 61);
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+section {
+    min-height: 600px;
+}
+
+.portfolio {
+    background-color: #aaa;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contact {
+    padding-top: 30px;
+}
+
+footer {
+    background-color: black;
+    height: 125px;
+    color: #aaa;
+    padding-top: 40px;
+}
